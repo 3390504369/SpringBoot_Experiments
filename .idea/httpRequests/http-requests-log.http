@@ -1,0 +1,37 @@
+GET http://localhost:8080/api/users/10
+
+<> 2019-04-16T081424.200.json
+
+###
+
+GET http://localhost:8080/api/users
+
+<> 2019-04-16T080652.200.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName": "spring",
+  "password": "445",
+  "detail": "708"
+}
+
+<> 2019-04-16T075620.200.json
+
+###
+
+GET http://localhost:8080/api/users/10
+
+<> 2019-04-16T075613.200.json
+
+###
+
+GET http://localhost:8080/api/users
+
+<> 2019-04-16T075554.200.json
+
+###
+
