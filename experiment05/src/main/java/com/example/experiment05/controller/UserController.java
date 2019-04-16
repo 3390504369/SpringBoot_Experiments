@@ -12,7 +12,7 @@ import java.util.Optional;
 @Slf4j
 @RestController
 //声明为支持REST的控制组件，基于Jackson自动完成，将java对象序列化为
-//json返回，以及将传入的json反序列化为java对象
+// json返回，以及将传入的json反序列化为java对象
 @RequestMapping("/api")
 //声明此组件所有处理地址的相对路径
 public class UserController {
