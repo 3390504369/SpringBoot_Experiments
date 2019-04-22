@@ -1,0 +1,26 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "username": "flj",
+  "password": "1234",
+  "age": 16,
+  "email": "a.1"
+
+}
+
+###
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName":"flj",
+  "password":"1234",
+  "age":"类型转换错误",
+  "email": "a,1"
+  }
+
+###
+GET http://localhost:8080/api/users/a
+
+###
