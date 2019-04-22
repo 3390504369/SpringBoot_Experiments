@@ -17,7 +17,7 @@ Content-Type: application/json
   "userName":"flj",
   "password":"1234",
   "age":"类型转换错误",
-  "email": "a,1"
+  "email":"a,1"
   }
 
 ###
