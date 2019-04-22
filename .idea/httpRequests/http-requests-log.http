@@ -1,3 +1,99 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "username": "flj",
+  "password": "1234",
+  "age": 16,
+  "email": "a.1"
+
+}
+
+<> 2019-04-22T054025.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "username": "flj",
+  "password": "1234",
+  "age": 16,
+  "email": "a.1"
+
+}
+
+<> 2019-04-22T053947.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "username": "flj",
+  "password": "1234",
+  "age": 16,
+  "email": "a.1"
+
+}
+
+<> 2019-04-22T053930.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "username": "flj",
+  "password": "1234",
+  "age": 16,
+  "email": "a.1"
+
+}
+
+<> 2019-04-22T053612.400.json
+
+###
+
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "userName":"flj",
+  "password":"1234",
+  "age":"类型转换错误",
+  "email":"a,1"
+  }
+
+<> 2019-04-22T053601.500.json
+
+###
+
+GET http://localhost:8080/api/users/a
+
+<> 2019-04-22T053427.500.json
+
+###
+
+GET http://localhost:8080/api/users/a
+
+###
+
+GET http://localhost:8080/api/users/a
+
+###
+
+GET http://localhost:8081/api/users/a
+
+###
+
+GET http://localhost:8080/api/users/a
+
+###
+
 GET http://localhost:8080/api/users/10
 
 <> 2019-04-16T081424.200.json
