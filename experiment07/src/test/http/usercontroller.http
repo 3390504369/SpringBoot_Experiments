@@ -1,0 +1,22 @@
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+###
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName":  "flj",
+  "password": "12345"
+  }
+
+###
+GET http://localhost:8080/api/index
+name11:42ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+###
