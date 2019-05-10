@@ -1,3 +1,141 @@
+GET http://localhost:8080/api/index
+name11: 42ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-05-10T025055.200.json
+
+###
+
+GET http://localhost:8080/api/index
+name11: 42ad2d2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-05-10T024902.401.json
+
+###
+
+GET http://localhost:8080/api/index
+name11: 42ad2d2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-05-10T024827.401.json
+
+###
+
+GET http://localhost:8080/api/index
+name11: d2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-05-10T024459.401.json
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "12345"
+  }
+
+<> 2019-05-10T024449.401.json
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+<> 2019-05-10T024428.200.json
+
+###
+
+GET http://localhost:8080/api/index
+name11: 42ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+<> 2019-05-10T024106.200.json
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+<> 2019-05-10T024035.200.json
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+<> 2019-05-10T024023.200.json
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+###
+
+GET http://localhost:8080/api/index
+name11: 42ad2ea28dc077486e600b7e66da19f6cbd872930a9ed253962176d0f6d91090
+
+###
+
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+###
+
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "userName": "flj",
+  "password": "123456"
+  }
+
+###
+
 POST http://localhost:8080/api/users
 Content-Type: application/json
 
